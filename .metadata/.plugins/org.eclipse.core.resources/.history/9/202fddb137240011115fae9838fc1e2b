@@ -1,0 +1,8 @@
+package com.klu.execption;
+
+public class InvalidInputExecption extends RuntimeExeeption {
+
+    public InvalidInputExecption(String message) {
+        super(message);
+    }
+}
